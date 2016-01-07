@@ -7,3 +7,4 @@ function parallax(){
 $(window).scroll(function(e){
     parallax();
 });
+parallax();

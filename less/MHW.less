@@ -1,3 +1,5 @@
+@primary: #2C3E50;
+
 .bg {
   background: url('/img/rig.jpg') no-repeat center center;
   position: fixed;
@@ -18,4 +20,29 @@
   width: 100%;
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+
+.footer{
+    color: grey;
+    font-size: small;
+}
+
+.navbar-default{
+    background-color: white;
+    .navbar-nav li a{
+	color: @primary;
+    }
+    .navbar-brand{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+    }
+    .navbar-toggle .icon-bar{
+	background-color: @primary;
+    }
+    box-shadow: 0 2px 0 0 @primary;
+}
+
+.icon-bar{
+    background-color:red;
 }
